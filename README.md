@@ -1,34 +1,34 @@
 # aframe-school
 
-Interactive workshop and lessons for learning [A-Frame](https://aframe.io) and
-WebVR. Based around [Glitch](https://glitch.com).
+Интерактивное пособие и уроки для изучения [A-Frame](https://aframe.io) и
+WebVR.  Основано на [Glitch](https://glitch.com). Для тех, кто только что вошел
+в мир VR, это самый простой способ начать работу прямо сейчас.
 
-Can either be self-led or be used as part of a hands-on event (e.g., tutorial
-or workshop). If you are holding an event, you can present the [A-Frame
-Presentation Kit](https://github.com/aframevr/aframe-presentation-kit) as a
-primer beforehand.
+Пособие можно использовать самостоятельно, либо как часть практической работы (например, с учебником)
+Если же вы проводите мероприятие, то может использовать [A-Frame
+Presentation Kit](https://github.com/aframevr/aframe-presentation-kit).
 
-[GO TO SCHOOL](https://aframe.io/aframe-school/)
-- [Español](https://mozillaperu.github.io/aframe-school/#/)
-- [中文](https://bobchao.github.io/aframe-school-zhTW/#/)
+[Перейти в школу (версия на английском языке)](https://aframe.io/aframe-school/)
+- [На испанском](https://mozillaperu.github.io/aframe-school/#/)
+- [На китайском](https://bobchao.github.io/aframe-school-zhTW/#/)
 
 ![](https://cloud.githubusercontent.com/assets/674727/24431825/1a2c83de-13d3-11e7-9739-dd5004891684.png)
 
-## Grabbing the School
+## Скачивание
 
-If you're having trouble accessing the School online and need to download the
-School locally (e.g., the Internet connection at your event is poor):
+Если у вас возникают сложности с доступом к онлайн-версии школы и необходимо скачать
+локальную копию (например, из-за того, что ваше интернет-соединение не достаточно хорошее):
 
-1. [Download the School (.ZIP)](http://github.com/aframevr/aframe-school/zipball/master)
-2. Start a local web server in the same directory as the School (e.g., run
-`python -m SimpleHTTPServer` in a terminal). Alternatively, run the provided
-`mongoose.exe` on Windows or `mongoose.app` on MacOS.
+1. [Скачать архив школы (.ZIP)](http://github.com/aframevr/aframe-school/zipball/master)
+2. Запустить локальный web-сервер в той же директории где школа (т.е. выполнить команду
+`python -m SimpleHTTPServer` в терминале). В качестве альтернативы можно запустить
+`mongoose.exe` в среде Windows или `mongoose.app` — в среде MacOS.
 
-## Working on the School
+## Работа
 
-The School is built using [reveal.js](https://github.com/hakimel/reveal.js/).
-All of the pages of the School are maintained in a single markdown file,
-`content.md`. Use `------` to separate sections and `---` to separate
-subsections.
+Школа основана на фреймворке [reveal.js](https://github.com/hakimel/reveal.js/).
+Все страницы школы хранятся в одном файле разметки,
+`content.md`. Используйте `------`, чтобы обозначить разделы и `---`, чтобы обозначить
+подразделы.
 
 
