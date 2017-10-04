@@ -2,8 +2,8 @@
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
 <div class="talk-title">
-  <h1>A-Frame School</h1>
-  <h3>An interactive course for WebVR</h3>
+  <h1>Школа A-Frame</h1>
+  <h3>Интерактивный курс по WebVR</h3>
   <p class="talk-info">
     <b><a href="https://aframe.io">aframe.io</a></b>
   </p>
@@ -11,29 +11,29 @@
 
 ------
 
-## Prologue
+## Пролог
 
 <!-- .slide: data-background="media/img/aframe.jpg" -->
 
-> Using [Glitch](https://glitch.com), the School will give you step-by-step
-> exercises to help you jump into [WebVR](https://webvr.rocks)! The School has
-> sections going &larr; and &rarr; but also subsections going **&uarr; and
+> С помощью [Glitch](https://glitch.com) в школе вам даются упражнения «шаг за шагом»,
+> чтобы помочь вам погрузиться в мир [WebVR](https://webvr.rocks)! В школе перемещение
+> по разделам осуществляется &larr; and &rarr, а перемещение между подразделами **&uarr; and
 > &darr;**:
 
 <img class="stretch" data-src="media/img/navigation.jpg">
 
-**Navigate &darr;**
+**Навигация &darr;**
 
 ---
 
-### Resources During Your Journey
+### Полезные ресурсы во время вашего путешествия
 
-1. [Skim through the docs and FAQ](https://aframe.io/docs/)
-2. [Get help from peeps on Slack](https://aframe.io/community/#slack)
-3. [Ask questions on Stack Overflow](http://stackoverflow.com/questions/ask/?tags=aframe)
-4. If you are in a live workshop event, please raise your hand if you have a question!
+1. [Просмотрите Документацию и Часто задаваемые вопросы](https://aframe.io/docs/)
+2. [Обратитесь за помощь на Slack](https://aframe.io/community/#slack)
+3. [Задайте вопрос на Stack Overflow](http://stackoverflow.com/questions/ask/?tags=aframe)
+4. Если вы участвуете в семинаре , то поднимите свою руку, если у вас есть вопрос!
 
-**Navigate &rarr;**
+**Навигация &rarr;**
 
 
 <!-- Lessons start below. -->
@@ -41,23 +41,23 @@
 
 ------
 
-## Glitch &mdash; Introduction
+## Glitch &mdash; введение
 
-> The School uses [Glitch](https://glitch.com) as your learning and development
-> environment for A-Frame.
+> Школа использует [Glitch](https://glitch.com) в качестве среды обучения
+> и разработки для A-Frame
 
 <img class="stretch" data-src="media/img/glitch.jpg">
 
-- Glitch lets you code in the browser without having to set
-anything up
-- Glitch lets you **remix** projects to use existing A-Frame projects as a
-  starting point
-- Glitch instantly publishes and hosts your site with a URL (e.g.,
+- Glitch запускает ваш код в браузере без необходимости дополнительноустанавливать
+что-нибудь ещё
+- Glitch позволяет **переделывать** проекты с использованием существующих проектов A-Frame
+  в качестве отправной точки
+- Glitch мгновенно публикует и хранит ваш сайт с URL-адресом (например,
   `https://aframe.glitch.me`)
-- Glitch updates your A-Frame site live on every code change
-- Glitch lets multiple people code on the same project
+- Glitch обновляет ваш сайт с A-Frame в реальном времени при каждом изменении кода
+- Glitch позволяет нескольким людям работать с кодом в одном проекте
 
-*If you are interested in setting up a local development environment, skip ahead &darr;*
+*Если вы заинтересованы в установке локального окружения для разработки, пропустите шаг &darr;*
 
 ---
 
