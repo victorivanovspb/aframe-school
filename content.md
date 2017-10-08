@@ -61,50 +61,50 @@
 
 ---
 
-## Glitch &mdash; Remixing an Existing Project
+## Glitch &mdash; переделывание существующего проекта
 
-> Glitch lets you remix or fork an existing project and use it as a base for your
-> new project. Before starting, we recommend linking Glitch to a [GitHub
-> account](https://github.com/). After you remix, Glitch will give you a random
-> project and URL name, which you can change.
+> Glitch позволяет переделать (или сделать ответвление) существующий проект и использовать это в качестве основы для вашего
+> нового проекта. Перед тем как начать, мы рекомендуем связать аккаунт в Glitch с вашим [аккаунтом в GitHub
+> ](https://github.com/). Glitch предоставит вам имя проекта и его URL-адрес,
+> сгенерированные случайным образом, которые вы можете изменить.
 
 <img class="stretch" data-src="media/img/glitch2.jpg">
 
-<a href="https://glitch.com/~aframe/" target="_blank">Remix the A-Frame Starter Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe/" target="_blank">Переделать заготовленные проекты A-Frame в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
 ---
 
-## Glitch &mdash; Editing Code
+## Glitch &mdash; редактирование кода
 
-> Once you've [remixed the A-Frame Starter Glitch](https://glitch.com/~aframe/),
-> check out where you'll be editing your code. Poke around and see that you can
-> even edit the backend server code, upload assets, create new files, or invite
-> others to edit with you!
+> После того, как вы [переделали заготовку A-Frame в Glitch](https://glitch.com/~aframe/),
+> проверьте, где вы будете редактировать свой код. Осмотритесь вокруг и убедитесь, что вы можете
+> редактировать код серверной части, загружать ассеты, создавать новые файлы, или приглашать 
+> других, чтобы редактировать с вами!
 
 <img class="stretch" data-src="media/img/glitch3.jpg">
 
 ---
 
-## Glitch &mdash; Viewing Your Project
+## Glitch &mdash; просмотр вашего проекта
 
-> After you've poked around the editor, see the project live.
+> После того как вы поработали в редакторе, посмотрите ваш проект в действии.
 
 <img class="stretch" data-src="media/img/glitch4.jpg">
 
 ---
 
-## Glitch &mdash; Exporting Your Project
+## Glitch &mdash; экспортирование вашего проекта
 
-> At any time, if you want to download your project or export to GitHub, see the
-> *Advanced Options* menu. Downloading will give you a `.tgz` file which you can
-> unzip. For A-Frame projects, you mostly care about what's in the `public/`
-> folder, and ignore all the server-side code.
+> В любой момент времени, если вы захотите скачать свой проект или экспортировать его на GitHub, можете
+> обратиться к пункту меню *Дополнительные опции*. Скачивание даст вам файл с расширением `.tgz`, который вы сможете
+> распаковать. В проектах A-Frame, от вас потребуется работать с тем, что находится в директории `public/`,
+> а код серверной части игнорировать.
 
 <img class="stretch" data-src="media/img/glitch5.jpg">
 
-If you download a project, you
-might be interested in setting up a web development environment in the next
-section **&darr;**. Else, head **&rarr;** to start with A-Frame!
+Если вы скачиваете проект, вам
+может быть интересно узнать про создание окружения для веб-разработки в следующем
+разделе **&darr;**. В противном случае, жмите **&rarr;** для того, чтобы приступить к изучению A-Frame!
 
 ---
 
