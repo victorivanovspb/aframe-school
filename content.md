@@ -648,12 +648,12 @@ with the `mouseleave` event
 <!-- Lessons end here. -->
 
 
-## Congratulations!
+## Поздравления!
 
-You've graduated from the A-Frame School and now have a virtual uncertified
-degree in WebVR.
+Вы закончили школу A-Frame и теперь получили виртуальную несертифицированную
+степень по WebVR.
 
 <img class="stretch" data-src="https://cdn.hackaday.io/images/4174761433219325627.png">
 
-Head to [the documentation](https://aframe.io/docs/) for more guides to become
-a master.
+Обратитесь к [документации](https://aframe.io/docs/), чтобы получить больше знаний и стать
+мастером.
