@@ -175,24 +175,24 @@ network have access to your local server
 
 ------
 
-## Try Out A-Frame Examples
+## Попробуйте примеры A-Frame
 
-> Play with examples on your desktop or smartphone from the [A-Frame
-> Homepage](https://aframe.io), [A-Frame Blog](https://aframe.io/blog/), or
-> [awesome-aframe](https://github.com/aframevr/awesome-aframe). See
-> [webvr.rocks](https://webvr.rocks) for information on setting up WebVR with a
-> headset if you have one.
+> Поработайте с примерами в вашем десктопе или смартфоне [на странице
+> A-Frame](https://aframe.io), [в блоге A-Frame](https://aframe.io/blog/), или
+> [awesome-aframe](https://github.com/aframevr/awesome-aframe). Посмотрите
+> [webvr.rocks](https://webvr.rocks) для получения информации о настройке WebVR with с
+> гарнитурой, если она у вас есть.
 
 <img data-src="media/img/examples.gif">
 
 ------
 
-## Start with *Hello, WebVR*
+## Начните с *Привет, WebVR*
 
-> A-Frame provides easy-to-use HTML elements for starters called
-[primitives](https://aframe.io/docs/0.5.0/primitives/). In the sections below,
-we'll modify basic meshes through HTML attributes (e.g., change colors,
-positions, rotations, scale) and get a feel for the workflow.
+> A-Frame предоставляет простые в использовании HTML элементы, называемые
+[примитивами](https://aframe.io/docs/0.5.0/primitives/). В разделе ниже
+мы изменим основные мэши через HTML аттрибуты (например, цвет,
+положение, вращение, масштаб) и дадим почувствовать рабочий процесс.
 
 <img data-src="media/img/hellowebvr2.jpg">
 
