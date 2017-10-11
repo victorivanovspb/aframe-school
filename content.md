@@ -199,58 +199,58 @@ SimpleHTTPServer` в консоли
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Position
+## Начните с *Привет, WebVR* &mdash; положение
 
-> Position defines where objects are in 3D space (X, Y, Z) in meters. Change
-> the `position` of the objects via the `position` HTML attribute values. [Read about
-> positions](https://aframe.io/docs/master/components/position.html).
+> Положение определяет где объекты находятся в трехмерном пространстве (X, Y, Z) в метрах. Изменяйте
+> `положение` объектов через атрибуты `позиции` в HTML. [Почитайте о
+> положениях](https://aframe.io/docs/master/components/position.html).
 
-<a href="https://glitch.com/~aframe-school-position" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-position" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Move the cylinder left by *decreasing* the `position`'s X value
-2. Move the box up by *increasing * the `position`'s Y value
-3. Move the sphere back by *decreasing* the `position`'s Z value
-4. **Extra Credit:** Add `<a-ring>` as a child of `<a-sphere>` and give it a position to see relative positions
+1. Переместите цилиндр влево, чтобы *уменьшить* значение `позиции` по оси X
+2. Переместите поле вверх, чтобы *увеличить* значение `позиции` по оси Y
+3. Переместите сферу назад, чтобы *уменьшить* значение `позиции` по оси Z
+4. **Дополнительно:** Добавьте `<a-ring>` в качестве дочернего элемента `<a-sphere>` и дайте ему возможность видеть относительные позиции
 
 <img class="stretch" data-src="media/img/positionresult.jpg">
 
-<a href="https://aframe-school-position.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-position.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Rotation
+## Начните с *Привет, WebVR* &mdash; вращение
 
-> Rotation defines orientation of objects in 3D space (about the X, Y, Z axes)
-> in degrees. Use the right-hand rule to spatially visualize rotation. [Read about
-> rotations](https://aframe.io/docs/master/components/rotation.html).
+> Вращение определяет ориентацию объектов в трехмерном пространстве (по осям X, Y, Z)
+> в градусах. Используйте правило правой руки, чтобы пространственно визуализировать вращение. [Почитайте о
+> вращениях](https://aframe.io/docs/master/components/rotation.html).
 
-<a href="https://glitch.com/~aframe-school-rotation" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-rotation" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Rotate the cylinder around the X axis so we see the bottom
-2. Rotate the box around the Y axis so the box is facing straight
-3. **Extra Credit:** Wrap the scene contents in `<a-entity>` (like a `<div>`)
-and give it a rotation to see relative rotations
+1. Поверните цилиндр вокруг оси X так, чтобы мы увидели его дно
+2. Поверните поле вокруг оси Y так, чтобы оно было обращено прямо
+3. **Дополнительно:** Оберните контент сцены в `<a-entity>` (как `<div>`)
+и поверните её, чтобы увидеть относительные вращения
 
 <img class="stretch" data-src="media/img/rotationresult.jpg">
 
-<a href="https://aframe-school-rotation.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-rotation.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Start with *Hello, WebVR* &mdash; Add Primitives
+## Начните с *Привет, WebVR* &mdash; добавление примитивов
 
-> Add primitives the scene by adding HTML elements under `<a-scene>`.  [Read
-> about primitives](https://aframe.io/docs/0.5.0/primitives/).
+> Добавьте примитивы в сцену, включив HTML элементы внутрь `<a-scene>`.  [Почитайте
+> о примитивах](https://aframe.io/docs/0.5.0/primitives/).
 
-<a href="https://glitch.com/~aframe-school-primitives" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-primitives" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add [`<a-torus-knot>`](https://aframe.io/docs/0.5.0/primitives/a-torus-knot.html) to the left
-2. Add [`<a-dodecahedron>`](https://aframe.io/docs/0.5.0/primitives/a-dodecahedron.html) to the right
-3. Add [`<a-text>`](https://aframe.io/docs/0.5.0/primitives/a-text.html) aligned in the center
+1. Добавьте [`<a-torus-knot>`](https://aframe.io/docs/0.5.0/primitives/a-torus-knot.html) в левую часть
+2. Добавьте [`<a-dodecahedron>`](https://aframe.io/docs/0.5.0/primitives/a-dodecahedron.html) в правую часть
+3. Добавьте [`<a-text>`](https://aframe.io/docs/0.5.0/primitives/a-text.html), выровненный по центру
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24266010/9c57cbe4-0fc2-11e7-968f-168f3649d109.png">
 
-<a href="https://aframe-school-primitives.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-primitives.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ------
 
