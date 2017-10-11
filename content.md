@@ -108,40 +108,40 @@
 
 ---
 
-## [Optional] Set Up a Web Development Environment
+## [Дополнительно] Установка окружения web-разработки
 
-> You can set up a full web development environment on your local machine, rather
-> than use Glitch's online web development environment.
+> Вы можете установить полноценное окружение web-разработки на вашей локальной машине,
+> а не использовать онлайн-среду web-разработки Glitch.
 
 <img class="stretch" data-src="media/img/webdevenv1.jpg">
 
-1. **Get a text editor:** [Atom](https://atom.io) is a good one to start with
-2. **Set up a local server:** Download and run [Mongoose
-Server](https://www.cesanta.com/products/binary) or run `python -m
-SimpleHTTPServer` in a terminal
-3. **Create a file `index.html`** and copy A-Frame code from the Glitch samples
-4. **Run a local server** in the same directory as the HTML file
-5. **Open the local server's URL** in your browser (e.g., `http://localhost:8000`)
-6. **Make changes** to your HTML file and refresh your browser to see the changes
-7. Optional: check out [ngrok](https://ngrok.io) to let any device on any
-network have access to your local server
+1. **Получите текстовый редактор:** [Atom](https://atom.io) хороший вариант для начала
+2. **Установите локальный сервер:** Скачайте и запустите [Mongoose
+Server](https://www.cesanta.com/products/binary) или запустите `python -m
+SimpleHTTPServer` в консоли
+3. **Создайте файл `index.html`** и скопируйте код A-Frame из представленных в Glitch примеров
+4. **Запустите локальный сервер** в той же директории, что и файл HTML
+5. **Откройте URL-адрес локального сервера** в вашем браузере (например, `http://localhost:8000`)
+6. **Внесите изменения** в ваш HTML файл и перезагрузите браузер, чтобы увидеть их
+7. Дополнительно: попробуйте [ngrok](https://ngrok.io) для того, чтобы любое устройство в любой
+сети имело доступ к вашему локальному серверу
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Get a Text Editor
+## [Дополнительно] Установка окружения web-разработки &mdash; получите текстовый редактор
 
-> [Atom](https://atom.io) is a good text editor to start if you don't have one.
-> Other popular options are [Notepad++](https://notepad-plus-plus.org/),
-> [Sublime](https://www.sublimetext.com/), [Brackets](http://brackets.io/), or
+> [Atom](https://atom.io) — хороший текстовый редактор для начала, если у вас нет ничего другого.
+> Другими популярными вариантами являются: [Notepad++](https://notepad-plus-plus.org/),
+> [Sublime](https://www.sublimetext.com/), [Brackets](http://brackets.io/) или
 > [vim](http://www.vim.org/download.php).
 
 <img class="stretch" data-src="media/img/webdevenv2.jpg">
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Set Up a Local Server
+## [Optional] Установка окружения web-разработки &mdash; установите локальный сервер
 
-> You'll need a local HTTP server to serve your files to the browser.
+> Вам будет нужен локальный HTTP-сервер, чтобы обслуживать ваши файлы в браузере.
 
 <div class="captioned-image-row small">
   <div>
@@ -160,16 +160,15 @@ network have access to your local server
 
 ---
 
-## [Optional] Set Up a Web Development Environment &mdash; Use ngrok
+## [Optional] Установка окружения web-разработки &mdash; используйте ngrok
 
-> Optionally, you can use [ngrok](https://ngrok.com/) to help develop your
-> A-Frame project on a smartphone without having to do the local IP address
-> dance.
+> При желании вы можете использовать [ngrok](https://ngrok.com/) для того, чтобы разрабатывать свой
+> A-Frame проект со смартфона без необходимости выполнять настройку доступа к локальному IP-адресу.
 
-1. Download and unzip [ngrok](https://ngrok.com/download/) anywhere
-2. Run ngrok, providing it the port number of your local server (`./ngrok http 8080`)
-3. In the output, ngrok will give you a URL with a bunch of letters and numbers (e.g., `https://abcdef123456.ngrok.io`)
-4. Open that URL on another device on any network (such as a smartphone or another computer)
+1. Скачайте и распакуйте [ngrok](https://ngrok.com/download/) в любое место
+2. Запустите ngrok, предоставив ему номер порта вашего локального сервера (`./ngrok http 8080`)
+3. ngrok предоставит вам URL-адрес, состоящий из набора букв и цифр (e.g., `https://abcdef123456.ngrok.io`)
+4. Откройте этот URL-адрес с другого устройства в любой сети (таком как смартфон или другой компьютер)
 
 <img class="stretch" data-src="media/img/webdevenv3.jpg">
 
