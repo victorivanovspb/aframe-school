@@ -254,40 +254,40 @@ SimpleHTTPServer` в консоли
 
 ------
 
-## Add Textures &mdash; Uploading Assets
+## Добавление текстур &mdash; загрузка ассетов
 
-> We'll be adding image textures to meshes to more appearance than a flat color.
-> [Find your own images
-> online](https://aframe.io/docs/0.5.0/introduction/faq.html#where-can-i-find-assets),
-> and upload them through the assets section in Glitch or through the uploader on
-> [cdn.aframe.io](https://cdn.aframe.io). Wherever else you may upload, make sure
-> it's being served with
-> [CORS](https://developer.mozilla.org/docs/Web/HTTP/Access_control_CORS) and
-> over HTTPS.
+> Мы добавим изображения текстур к мэшам для лучшего внешнего вида, чем при заливке плоскости цветом.
+> [Найдите ваши собственные изображения
+> онлайн](https://aframe.io/docs/0.5.0/introduction/faq.html#where-can-i-find-assets),
+> и загрузите их через раздел ассетов в Glitch или через загрузчик
+> [cdn.aframe.io](https://cdn.aframe.io). Куда бы вы ни загрузили данные, убедитесь,
+> что там поддерживается
+> [CORS](https://developer.mozilla.org/docs/Web/HTTP/Access_control_CORS)
+> поверх HTTPS.
 
 <img class="stretch" data-src="media/img/glitchasset.jpg">
 
-In the Glitch below **&darr;**, some assets will already be provided in the
-assets section (pictured above).
+В Glitch внизу **&darr;**, некоторые ассеты уже будут предоставлены в
+разделе ассетов (на изображении выше).
 
 ---
 
-## Add Textures &mdash; Image Textures
+## Добавление текстур &mdash; текстуры изображений
 
-> Fill in the `src` HTML attributes with image URLs. [Read about applying an
-> image texture](https://aframe.io/docs/0.5.0/guides/building-a-basic-scene.html#applying-an-image-texture).
+> Заполните HTML-атрибуты `src` с URL-адресами изображений. [Прочитайте об использовании
+> текстур изображений](https://aframe.io/docs/0.5.0/guides/building-a-basic-scene.html#applying-an-image-texture).
 
-<a href="https://glitch.com/~aframe-school-textures/" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-textures/" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add an image texture to the ground, `<a-plane>`
-2. Add image textures to `<a-box>`es
-3. Add an image texture to `<a-sphere>`
-4. Add an image texture to `<a-cone>`
-5. Add an image texture to the background, `<a-sky>`. Find [360&deg; images from FLickr](https://www.flickr.com/groups/equirectangular/)
+1. Добавьте текстуру на землю, `<a-plane>`
+2. Добавьте текстуры в `<a-box>`ы
+3. Добавьте текстуру в `<a-sphere>`
+4. Добавьте текстуру в `<a-cone>`
+5. Добавьте текстуру на задний план, `<a-sky>`. Найдите [панорамные изображения 360&deg; на FLickr](https://www.flickr.com/groups/equirectangular/)
 
 <img class="stretch" data-src="media/img/texture.jpg">
 
-<a href="https://aframe-school-textures.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-textures.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ------
 
