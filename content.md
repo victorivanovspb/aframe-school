@@ -291,48 +291,45 @@ SimpleHTTPServer` в консоли
 
 ------
 
-## Open the A-Frame Inspector
+## Откройте Инспектор A-Frame
 
-> Hit **`<ctrl> + <alt> + i`** on **any** A-Frame scene to pop open a visual
-> editor, just like your browser's Dev Tools!  Try the Inspector on some of the
-> [homepage examples](https://aframe.io/examples/). [Read about the
-> Inspector](https://aframe.io/docs/master/guides/using-the-aframe-inspector.html).
+> Нажмите **`<ctrl> + <alt> + i`** на **любой** сцене A-Frame, чтобы открыть визуальный
+> редактор, подобно Dev Tools в вашем браузере!  Попробуйте Инспектор на каком-либо из
+> [примеров](https://aframe.io/examples/). [Прочитать про Инспектор](https://aframe.io/docs/master/guides/using-the-aframe-inspector.html).
 
 <img class="stretch" data-src="media/img/inspector.gif">
 
 ---
 
-## Open the A-Frame Inspector &mdash; Change Component Values
+## Откройте Инспектор A-Frame &mdash; изменение значений компонентов
 
-> Modify an entity by modifying its components on the right-hand panel. The
-> Inspector knows about all A-Frame components, including community components.
->  This example includes an external [text-geometry
-> component](https://www.npmjs.com/package/aframe-text-geometry-component), which
-> the Inspector can modify the values of live.
+> Измените объект, изменив его компоненты на правой панели.
+> Инспектор знает обо всех компонентах A-Frame, включая community-компоненты.
+>  Этот пример включает внешний компонент [text-geometry](https://www.npmjs.com/package/aframe-text-geometry-component),
+> в котором Инспектор может изменить значения.
 
-<a href="https://aframe-vaporwave.glitch.me" target="_blank">Open Example on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-vaporwave.glitch.me" target="_blank">Открыть пример в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Select one of the entities with text in the example
-2. Change the [`text-geometry` component's](https://www.npmjs.com/package/aframe-text-geometry-component) `value` property
+1. Выберите один из объектов с текстом в примере
+2. Измените `значение` свойства у [компонента `text-geometry`](https://www.npmjs.com/package/aframe-text-geometry-component)
 
 <img class="stretch" data-src="media/img/inspectorchange.jpg">
 
 ---
 
-## Open the A-Frame Inspector &mdash; Attach Components from the Registry
+## Откройте Инспектор A-Frame &mdash; присоединение компонентов из реестра
 
-> Use [physics components](https://github.com/donmccurdy/aframe-physics-system)
-> from the [Registry](https://aframe.io/registry/) to add gravity and collisions.
-> The Registry is a curated collection of A-Frame components. And the Inspector
-> is hooked up to the Registry so we can add components from the Registry in the
-> entity panel.
+> Используйте [физические компоненты](https://github.com/donmccurdy/aframe-physics-system)
+> из [реестра](https://aframe.io/registry/), чтобы добавить гравитацию и столкновения.
+> Реестр представляет собой курируемую коллекцию компонентов A-Frame. Инспектор
+> подключается к реестру, чтобы мы могли добавить компоненты в панель сущностей.
 
-<a href="https://aframe-vaporwave.glitch.me" target="_blank">Open Example on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-vaporwave.glitch.me" target="_blank">Открыть пример в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add the `static-body` component to ground grid
-2. Add the `dynamic-body` component to the torus knot (the purple pretzel in the back)
-3. Increase the Y-position of the torus knot to make it higher up
-4. Exit the Inspector
+1. Добавьте `статический` компонент в наземную сетку
+2. Добавьте `динамический` компонент к торическому узлу (фиолетовый крендель сзади)
+3. Увеличьте значение позиции по оси Y у торического узла, чтобы сделать его выше
+4. Покиньте Инспектор
 
 <img class="stretch" data-src="media/img/inspectorregistry.gif">
 
