@@ -335,24 +335,24 @@ SimpleHTTPServer` в консоли
 
 ------
 
-## Compose with Entity-Component &mdash; Break Primitives Down
+## Создайте entity-компонент &mdash; переделка элементов-примитивов
 
-> Behind the easy-to-use primitive elements, A-Frame is based on an
-> entity-component architecture. Decompose the primitive elements in the
-> *Hello, WebVR* example to `<a-entity>`s with their fundamental components.
+> Помимо простых в использовании элементов-примитивов A-Frame основывается на
+> архитектуре entity-компонентов. Разложите элементы-примитивы в примере
+> *Привет, WebVR* в `<a-entity>` с их фундаментальными компонентами.
 
-<a href="https://glitch.com/~aframe-school-ecs" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-ecs" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
 [geometry]: https://aframe.io/docs/0.5.0/components/geometry.html
 [material]: https://aframe.io/docs/0.5.0/components/material.html
 
-1. Convert `<a-box>` to `<a-entity>` with [geometry component][geometry] and [material component][material]. Configure the geometry component to be `primitive: box`
-2. Convert `<a-sphere>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: sphere`
-3. Convert `<a-cylinder>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: cylinder`
-4. Convert `<a-plane>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: plane`
-5. Convert `<a-sky>` to `<a-entity>` with geometry component and material component. Configure the geometry component to be `primitive: sphere` with a large `radius: 3000`, and configure the material component to be `shader: flat` so we don't do expensive lighting calculations when we just need a flat color
+1. Сконвертируйте `<a-box>` в `<a-entity>` с [компонентом geometry][geometry] и [компонентом material][material]. Сконфигурируйте компонент geometry как `primitive: box`
+2. Сконвертируйте `<a-sphere>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент geometry как `primitive: sphere`
+3. Сконвертируйте `<a-cylinder>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент geometry как `primitive: cylinder`
+4. Сконвертируйте `<a-plane>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент geometry как `primitive: plane`
+5. Сконвертируйте `<a-sky>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент как `primitive: sphere` с атрибутом `radius: 3000`, а также сконфигурируйте компонент material как `shader: flat` (не будут проводиться трудоёмкие вычисления освещённости, когда на нужен плоский цвет)
 
-<a href="https://aframe-school-ecs.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-ecs.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
