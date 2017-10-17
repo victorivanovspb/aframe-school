@@ -356,23 +356,23 @@ SimpleHTTPServer` в консоли
 
 ---
 
-## Compose with Entity-Component &mdash; Add a Light Source Sphere
+## Создайте entity-компонент &mdash; добавление сферы источника света
 
-> Use the entity-component pattern to add a sphere that also acts as a point
-> light source. Mix together the geometry, material, and light components to
-> compose this type of object.
+> Используйте шаблон entity-компонента, чтобы добавить сферу, которая действует также как точечный
+> источник света. Смешайте компоненты geometry, material и light, чтобы
+> создать этот тип объекта.
 
-1. Look for `<a-entity id="lightSphere">`
-2. Attach the [geometry component](https://aframe.io/docs/0.5.0/components/geometry.html) configured to use `primitive: sphere` to the entity
-3. Attach the [material component](https://aframe.io/docs/0.5.0/components/material.html) configured to use `color: #FFF` and `shader: flat` to the entity
-4. Attach the [light component](https://aframe.io/docs/0.5.0/components/light.html) configured to use `type: point` to the entity
-5. **Extra Credit:** Add the animation component from [the Registry](https://aframe.io/registry/) via a `<script>` tag. Attach the animation configured to use `property: position` and `dir: alternate` and `loop: true` and provide a position value for `to: <POSITION>`
+1. Поищите `<a-entity id="lightSphere">`
+2. Прикрепите [компонент geometry](https://aframe.io/docs/0.5.0/components/geometry.html) с настройкой `primitive: sphere`
+3. Прикрепите [компонент material](https://aframe.io/docs/0.5.0/components/material.html) с настройкой `color: #FFF` и `shader: flat`
+4. Прикрепите [компонент light](https://aframe.io/docs/0.5.0/components/light.html) с настройкой `type: point`
+5. **Дополнительно:** Добавьте компонент анимации из [реестра](https://aframe.io/registry/) с помощью тега `<script>`. Добавьте анимацию с настройкой `property: position` и `dir: alternate`, и `loop: true`, и с указанием значения позиции `to: <POSITION>`
 
-<a href="https://glitch.com/~aframe-school-ecs-light-sphere" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-ecs-light-sphere" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24060160/2c53a604-0b0f-11e7-9386-f83a3a9b4cfc.gif">>
 
-<a href="https://aframe-school-ecs-light-sphere.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element class="cta-button" -->
+<a href="https://aframe-school-ecs-light-sphere.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element class="cta-button" -->
 
 ------
 
