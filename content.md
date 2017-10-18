@@ -376,28 +376,27 @@ SimpleHTTPServer` в консоли
 
 ------
 
-## Extend with Entity-Component &mdash; From the Registry
+## Создайте entity-компонент &mdash; работа с реестром
 
-> [The Registry](https://aframe.io/registry/) is a great place to grab cool
-> components that the community has added to A-Frame. Sort of like third-party
-> plugins. Find community components from the Registry, copy their JS links,
-> include them via a `<script>` tag, and use them straight from HTML.
+> [Реестр](https://aframe.io/registry/) &mdash; отличное место для заимствования классных
+> компонентов, добавленных туда сообществом A-Frame. Похоже на сторонние
+> плагины. Найдите компоненты сообщества в реестра, скопируйте их JS-ссылки,
+> включите их с помощью тега `<script>` и используйте их прямо внутри HTML.
 
-1. Include [Particle
-System](https://www.npmjs.com/package/aframe-particle-system-component). Attach
-`<a-entity>`s with `particle-system` components configured to `preset: default`
-and `preset: snow`. Open the Inspector to play with the values!
-2. Include [Animation](https://www.npmjs.com/package/aframe-animation-component). Attach
-animation to the sphere to throb its scale by configuring `animation` component
-with `property: scale`, `loop: true`, and `to: 1.1 1.1 1.1`
-3. Include [Outline Effect](https://www.npmjs.com/package/aframe-outline-effect). Drop in the
-`<script>` and attach the `outline` component to the scene
+1. Включите [Particle
+System](https://www.npmjs.com/package/aframe-particle-system-component). Прикрепите
+`<a-entity>` с компонентами `particle-system` с настройкой `preset: default`
+и `preset: snow`. Откройте Inspector, чтобы поиграть со значениями!
+2. Включите [Animation](https://www.npmjs.com/package/aframe-animation-component). Прикрепите
+анимацию к сфере, чтобы изменить её масштаб с настройками компонента `animation` &mdash; `property: scale`, `loop: true` и `to: 1.1 1.1 1.1`
+3. Включите [Outline Effect](https://www.npmjs.com/package/aframe-outline-effect) (контурный эффект). Перейдите в
+`<script>` и добавьте компонент `outline` в сцену
 
-<a href="https://glitch.com/~aframe-school-registry" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-registry" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="media/img/registryexample.gif">
 
-<a href="https://aframe-school-registry.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element class="cta-button" -->
+<a href="https://aframe-school-registry.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element class="cta-button" -->
 
 ------
 
