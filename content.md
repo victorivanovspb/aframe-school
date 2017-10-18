@@ -400,22 +400,22 @@ System](https://www.npmjs.com/package/aframe-particle-system-component). При�
 
 ------
 
-## Use JavaScript
+## Используйте JavaScript
 
-> Use JavaScript and DOM APIs to programmatically modify the scene and its
-> entities. A-Frame is not just HTML; A-Frame provides access to JavaScript,
-> DOM APIs, and three.js underneath for full control.  [Read about *Using
-> JavaScript and DOM APIs* with
+> Используйте JavaScript и DOM API для программного изменения сцены и
+> объектов (entities). A-Frame &mdash; это не только HTML; A-Frame обеспечивает доступ к JavaScript,
+> DOM API и three.js с полным контролем.  [Почитать *об использовании
+> JavaScript и DOM API* совместно с
 > A-Frame](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html).
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
 <img class="stretch" data-src="media/img/js.jpg">
 
-To see JavaScript logs, we can open the browser's development console by
-right-clicking the page, clicking *Inspect* or *Inspect Element*, and then
-clicking the *Console* tab. When viewing solutions, we can see the results
-through the browser console.
+Чтобы посмотреть логи JavaScript мы можем открыть консоль разработчика в браузере, щелкнув правой клавишей
+по странице и выбрав *Inspect* или *Inspect Element*, а затем
+щелкнув вкладку *Console*. При просмотре решений мы можем видеть результаты
+через консоль браузера.
 
 ---
 
