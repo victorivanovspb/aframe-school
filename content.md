@@ -419,80 +419,80 @@ System](https://www.npmjs.com/package/aframe-particle-system-component). При�
 
 ---
 
-## Use JavaScript &mdash; Getting Entities
+## Используйте JavaScript &mdash; получение объектов
 
-> Use
+> Используйте
 > [`document.querySelector()`](https://developer.mozilla.org/docs/Web/API/Document/querySelector)
-> and
-> [`document.querySelectorAll()`](https://developer.mozilla.org/docs/Web/API/Document/querySelectorAll)
-> to get a reference to the scene and its entities.  [Read about querying for
-> entities](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#getting-entities-by-querying-and-traversing).
+> и
+> [`document.querySelectorAll()`](https://developer.mozilla.org/docs/Web/API/Document/querySelectorAll),
+> чтобы получить ссылку на сцену и её объекты (entities).  [Почитать про запрос
+> объектов](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#getting-entities-by-querying-and-traversing).
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Get a reference to the `<a-scene>` element using `var sceneEl = document.querySelector('a-scene');`
-2. Get a reference to all `<a-entity>` elements using `sceneEl.querySelectorAll('a-entity');`
-3. Get a reference to the box entity using `sceneEl.querySelector('#box');`
-4. Get a reference to the sphere and cylinder entities in one `.querySelectorAll()` call by using multi-element selector
-. Get a reference to the sphere and cylinder entities in one `.querySelectorAll()` call by adding and selecting HTML classes
+1. Получите ссылку на элемент `<a-scene>`, используя `var sceneEl = document.querySelector('a-scene');`
+2. Получите ссылку на все элементы `<a-entity>`, используя `sceneEl.querySelectorAll('a-entity');`
+3. Получите ссылку на объект box, используя `sceneEl.querySelector('#box');`
+4. Получите ссылку на объекты sphere и cylinder в одном вызове `.querySelectorAll()` с помощью многоэлементного селектора 
+. Получите ссылку на объекты sphere и cylinder в одном вызове `.querySelectorAll()`, добавив и выбрав классы HTML
 
-<a href="https://aframe-school-js.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-js.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Use JavaScript &mdash; Modifying Entities
+## Используйте JavaScript &mdash; изменение объектов
 
-> Use
+> Используйте
 > [`Entity.setAttribute()`](https://aframe.io/docs/0.5.0/core/entity.html#setattribute-attr-value-componentattrvalue)
-> to modify entities after retrieving them from the previous exercise. [Read
-> about modifying
-> entities](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#modifying-an-entity).
+> для изменения объектов после их извлечения из предыдущего упражнения. [Почитать
+> про изменение
+> объектов](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#modifying-an-entity).
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Change the box entity's `rotation` component
-2. Change the cylinder entity's `geometry` component's `height` property
-3. Change the sphere entity's `material` component's `metalness` property
+1. Измените компонент `rotation` в объекте box
+2. Измените свойство `height` компонента `geometry` в объекте cylinder
+3. Измените свойство `metalness` компонента `material` в объекте sphere
 
-<a href="https://aframe-school-js.glitch.me/solution2.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
-
----
-
-## Use JavaScript &mdash; Creating Entities
-
-> Use [`document.createElement()`](https://developer.mozilla.org/docs/Web/API/Document/createElement)
-> to create entities, `.setAttribute()` to configure them, and `.appendChild()`
-> to add them to the scene.  [Read about creating
-> entities](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#creating-an-entity-with-createelement).
-
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
-
-1. In a JavaScript `for` loop, create and add 50 `<a-box>` elements with
-random positions and scales (use `Math.random()`)
-
-<a href="https://aframe-school-js.glitch.me/solution3.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-js.glitch.me/solution2.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Use JavaScript &mdash; Handling Events
+## Используйте JavaScript &mdash; создание объектов
 
-> Use
-> [`.addEventListener()`](https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener)
-> to register a handler function that will be called when an event is emitted.
-> Then manually emit that event to see that handler function execute. Later we
-> can use event listeners to change the scene based on user input or other
-> events. [Read about events and event listeners with
+> Используйте [`document.createElement()`](https://developer.mozilla.org/docs/Web/API/Document/createElement)
+> для создания объектов и `.setAttribute()` для их конфигурирования, и `.appendChild()`
+> для их добавления в сцену.  [Почитать про создание
+> объектов](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#creating-an-entity-with-createelement).
+
+<a href="https://glitch.com/~aframe-school-js" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
+
+1. В JavaScript-цикле `for` создайте и добавьте 50 элементов `<a-box>` с
+позициями и размерами, заданными случайным образом (используйте `Math.random()`)
+
+<a href="https://aframe-school-js.glitch.me/solution3.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
+
+---
+
+## Используйте JavaScript &mdash; обработка событий
+
+> Используйте
+> [`.addEventListener()`](https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener),
+> чтобы зарегистрировать функцию-обработчик, которая будет вызвана при наструплении определенного события.
+> Затем вручную инициируйте это событие, чтобы увидеть исполнение функции-обработчика. Позже мы
+> сможем использовать прослушиватели событий (event listeners) для изменения сцены, основанной на пользовательском вводе или
+> других событиях. [Почитать про события и прослушивание событий совместно с
 > A-Frame](https://aframe.io/docs/0.5.0/guides/using-javascript-and-dom-apis.html#events-and-event-listeners).
 
-<a href="https://glitch.com/~aframe-school-js" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-js" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Register an event listener on the box to listen to the `foo` event. In the
-   handler function, change the box's color
-2. Emit the `foo` event with
+1. Зарегистрируйте event listener в объекте box для того, чтобы поймать событие `foo`. В
+   функции-обработчике измените цвет объекта box
+2. Инициируйте событие `foo` с помощью вызова
 [`Entity.emit()`](https://aframe.io/docs/0.5.0/core/entity.html#emit-name-detail-bubbles)
-and see the box change its color
+и смотрите как в объекте box изменится цвет
 
-<a href="https://aframe-school-js.glitch.me/solution4.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-js.glitch.me/solution4.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ------
 
