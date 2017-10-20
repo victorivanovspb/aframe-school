@@ -496,13 +496,12 @@ System](https://www.npmjs.com/package/aframe-particle-system-component). При�
 
 ------
 
-## Добавьте курсор, управляемый взглядом &mdash; добавление объекта Cursor
+## Добавьте Gaze-Based Cursor &mdash; добавление объекта Cursor
 
 > Используйте управляемый взглядом компонент [`cursor`
 > ](https://aframe.io/docs/0.5.0/components/cursor.html), чтобы обеспечить
 > возможность взаимодействия с сущностями (прежде всего для смартфонов).  [Почитать
-> про создание галереи изображений с обзором 360&deg;
-> ](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
+> про создание галереи изображений с обзором 360&deg;](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
 
 <a href="https://glitch.com/~aframe-school-cursor" target="_blank">Переделать урок на Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
