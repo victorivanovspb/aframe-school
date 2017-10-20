@@ -544,24 +544,24 @@ code inside the `handle-events` component, marked by the code comments.
 
 ------
 
-## Add 3D Models &mdash; glTF Model
+## Добавляйте 3D модели &mdash; glTF модель
 
-> 3D models are like the images of 3D and VR applications, although a bit
-> heavier. A 3D model is created beforehand in a 3D modeling program such as
-> [Blender](https://www.blender.org/) and consists of vertices, textures,
-> materials. We recommend using [glTF](https://github.com/KhronosGroup/glTF), a
-> relatively new 3D file format standard tailored for the Web. glTF is like the
-> JPG of 3D models.
+> 3D модели похожи на изображения 3D приложений и приложений виртуальной реальности (VR), хотя они и немного
+> тяжелее. 3D модель создается заранее в программе 3D-моделирования, такой как
+> [Blender](https://www.blender.org/) и состоит из вершин, текстур,
+> материалов. Мы рекомендуем использовать [glTF](https://github.com/KhronosGroup/glTF) &mdash; это
+> относительно новый стандарт формата 3D файлов, специально разработанный для Web. glTF подобен
+> JPG в мире 3D моделей.
 
-<a href="https://glitch.com/~aframe-school-gltf-model" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-gltf-model" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Add the `https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf` to
-the `<a-asset-item id="cityModel">`'s `src` attribute to preload the model
-2. Add `#cityModel` to the `<a-gltf-model>`'s `src` attribute to set and add the model
+1. Добавьте `https://cdn.aframe.io/test-models/models/virtualcity/VC.gltf` внутрь
+`<a-asset-item id="cityModel">` в атрибут `src` для предварительной загрузки модели
+2. Добавьте `#cityModel` внутрь `<a-gltf-model>` в атрибут `src` для установки и добавления модели
 
 <img class="stretch" data-src="https://cloud.githubusercontent.com/assets/674727/24275925/63067074-0ff0-11e7-9440-7c855b9ea0fd.png">
 
-<a href="https://aframe-school-gltf-model.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-gltf-model.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
