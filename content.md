@@ -496,31 +496,31 @@ System](https://www.npmjs.com/package/aframe-particle-system-component). При�
 
 ------
 
-## Add Gaze-Based Cursor Interactions &mdash; Add Cursor Entity
+## Добавьте курсор, управляемый взглядом &mdash; добавление объекта Cursor
 
-> Use the gaze-based [`cursor`
-> component](https://aframe.io/docs/0.5.0/components/cursor.html) to provide
-> the ability to interact with entities (primarily for smartphones).  [Read
-> about building a 360&deg; image
-> gallery](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
+> Используйте управляемый взглядом компонент [`cursor`
+> ](https://aframe.io/docs/0.5.0/components/cursor.html), чтобы обеспечить
+> возможность взаимодействия с сущностями (прежде всего для смартфонов).  [Почитать
+> про создание галереи изображений с обзором 360&deg;
+> ](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
 
-<a href="https://glitch.com/~aframe-school-cursor" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-cursor" target="_blank">Переделать урок на Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-This lesson has all the event listeners hooked up already. We just need to add
-an entity with the `cursor` component which will provide those events based on
-user input.  Note these events are not provided by the browser, but through
-A-Frame.
+На этом занятии все обработчики событий уже подключены. Нам просто нужно добавить
+объект с компонентом `cursor`, который будет предоставлять эти события на основе
+пользовательского ввода.  Обратите внимание, что эти события не поддерживаются браузером, а создаются 
+с помощью A-Frame.
 
-1. Add [`<a-camera>`](https://aframe.io/docs/0.5.0/components/camera.html) entity.
-   Previously A-Frame was providing a default camera
-2. Add [`<a-cursor>`](https://aframe.io/docs/0.5.0/components/cursor.html) entity
-   as a child underneath the camera entity
+1. Добавьте объект [`<a-camera>`](https://aframe.io/docs/0.5.0/components/camera.html).
+   Ранее A-Frame предоставлял объект camera, созданный по умолчанию
+2. Добавьте объект [`<a-cursor>`](https://aframe.io/docs/0.5.0/components/cursor.html)
+   в качестве дочернего элемента под объектом camera
 3. Drag the camera around the click on the panels on desktop. On smartphones,
    stare at the panels to trigger clicks (i.e., gaze-based)
 
 <img class="stretch" data-src="media/img/gaze.gif">
 
-<a href="https://aframe-school-cursor.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-school-cursor.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button glitch" -->
 
 ---
 
