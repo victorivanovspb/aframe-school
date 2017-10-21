@@ -565,33 +565,33 @@ code inside the `handle-events` component, marked by the code comments.
 
 ---
 
-## Add 3D Models &mdash; glTF Model Animations
+## Добавляйте 3D модели &mdash; анимация модели glTF
 
-> Models can come with animations. The model provided above has many animations
-> of ships zooming across the city. In the previous Glitch, we've provided a simple
-> `play-all-model-animations` component that we can attach to our model to play
-> its animations. Continue working from your current Glitch.
+> Модели могут поставляться с анимацией. В приведенной выше модели имеется много анимаций
+> кораблей, масштабирующихся по всему городу. В предыдущем Glitch мы предоставили простой
+> компонент `play-all-model-animations`, который мы можем применить к нашей модели, чтобы воспроизвести
+> её анимации. Продолжайте работать в вашем текущем Glitch.
 
-1. Include the `animation-mixer` component via a `<script>` in the
-`<head>` after the A-Frame script. This component is currently in the Registry,
-and may one day be included with A-Frame. `https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js`
-2. Attach the `animation-mixer` component to the `<a-gltf-model>` by
-setting it via an HTML attribute `animation-mixer`. By default, this will play all
-the animations of the model at once.
+1. Включите компонент `animation-mixer` с помощью `<script>` внутрь
+`<head>` после скрипта A-Frame. Этот компонент в настоящее время находится в реестре
+и может быть включен в A-Frame. `https://unpkg.com/aframe-extras.animation-mixer@3.4.0/dist/aframe-extras.animation-mixer.js`
+2. Прикрепите компонент `animation-mixer` к `<a-gltf-model>`,
+установив его через HTML-атрибут `animation-mixer`. По умолчанию это будет воспроизводить сразу все
+анимации модели.
 
 <img class="stretch" data-src="media/img/gltf.gif">
 
-<a href="https://aframe-school-gltf-model.glitch.me/solution2.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-gltf-model.glitch.me/solution2.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Add 3D Models &mdash; Uploading 3D Models
+## Добавляйте 3D модели &mdash; загрузка 3D моделей
 
-> If you have a model of your own, it can be tricky to upload it to a CDN since
-> it consists of multiple files that reference each other. So far the easiest
-> way we've found is to dump them into a GitHub repo, publish the repo's master
-> branch to GitHub Pages, and use `rawgit.com` to serve them. Alternatively,
-> set up Amazon S3. More to come.
+> Если у вас есть собственная модель, то могут быть трудности с её загрузкой на CDN, поскольку
+> она состоит из из нескольких файлов, которые ссылаются друг на друга. Пока что самый простой
+> способ &mdash; загрузить их в репозиторий GitHub, опубликовать ветвь master
+> на GitHub Pages, и использовать `rawgit.com` для их обслуживания. В качестве альтернативы
+> вы можете настроить Amazon S3. И это ещё не всё.
 
 ------
 
