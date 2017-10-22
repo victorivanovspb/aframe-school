@@ -17,7 +17,7 @@
 
 > С помощью [Glitch](https://glitch.com) в школе вам даются упражнения «шаг за шагом»,
 > чтобы помочь вам погрузиться в мир [WebVR](https://webvr.rocks)! В школе перемещение
-> по разделам осуществляется &larr; and &rarr, а перемещение между подразделами **&uarr; and
+> по разделам осуществляется &larr; and &rarr;, а перемещение между подразделами **&uarr; and
 > &darr;**:
 
 <img class="stretch" data-src="media/img/navigation.jpg">
@@ -346,11 +346,11 @@ SimpleHTTPServer` в консоли
 [geometry]: https://aframe.io/docs/0.5.0/components/geometry.html
 [material]: https://aframe.io/docs/0.5.0/components/material.html
 
-1. Сконвертируйте `<a-box>` в `<a-entity>` с [компонентом geometry][geometry] и [компонентом material][material]. Сконфигурируйте компонент geometry как `primitive: box`
-2. Сконвертируйте `<a-sphere>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент geometry как `primitive: sphere`
-3. Сконвертируйте `<a-cylinder>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент geometry как `primitive: cylinder`
-4. Сконвертируйте `<a-plane>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент geometry как `primitive: plane`
-5. Сконвертируйте `<a-sky>` в `<a-entity>` с компонентом geometry и компонентом material. Сконфигурируйте компонент как `primitive: sphere` с атрибутом `radius: 3000`, а также сконфигурируйте компонент material как `shader: flat` (не будут проводиться трудоёмкие вычисления освещённости, когда на нужен плоский цвет)
+1. Сконвертируйте `<a-box>` в `<a-entity>` с [компонентом geometry][geometry] и [компонентом material][material]. Настройте geometry как `primitive: box`
+2. Сконвертируйте `<a-sphere>` в `<a-entity>` с компонентом geometry и компонентом material. Настройте geometry как `primitive: sphere`
+3. Сконвертируйте `<a-cylinder>` в `<a-entity>` с компонентом geometry и компонентом material. Настройте geometry как `primitive: cylinder`
+4. Сконвертируйте `<a-plane>` в `<a-entity>` с компонентом geometry и компонентом material. Настройте geometry как `primitive: plane`
+5. Сконвертируйте `<a-sky>` в `<a-entity>` с компонентом geometry и компонентом material. Настройте geometry как `primitive: sphere` с атрибутом `radius: 3000`, а также настройте material как `shader: flat` (не будут проводиться трудоёмкие вычисления освещённости, когда на нужен плоский цвет)
 
 <a href="https://aframe-school-ecs.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
