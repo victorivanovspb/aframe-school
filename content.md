@@ -523,24 +523,24 @@ System](https://www.npmjs.com/package/aframe-particle-system-component). При�
 
 ---
 
-## Add Gaze-Based Cursor Interactions &mdash; Handle Events
+## Добавьте Gaze-Based Cursor &mdash; обработка событий
 
-> Use the `click`, `mouseenter`, `mouseleave` events provided by the gaze-based
-> [`cursor` component](https://aframe.io/docs/0.5.0/components/cursor.html) to
-> change the properties of an object.
+> Используйте события `click`, `mouseenter`, `mouseleave`, предоставляемые gaze-based компонентом
+> [`cursor`](https://aframe.io/docs/0.5.0/components/cursor.html), чтобы
+> изменить свойства объекта.
 
-The Glitch code will have the project structure set up. We can add JavaScript
-code inside the `handle-events` component, marked by the code comments.
+В коде Glitch будет создана структура проекта. Мы можем добавить код JavaScript
+внутрь компонента `handle-events`, отмеченного комментариями в коде.
 
-<a href="https://glitch.com/~aframe-school-cursor-handler" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-cursor-handler" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Attach our `controller-event-handler` to the cubes. We can attach to all of them at once through the mixin
-2. Add an event listener to change the box's color on `mouseenter` event
-3. Add an event listener to restore the box's color on `mouseleave` event
+1. Прикрепите наш `controller-event-handler` к кубам (cubes). Мы можем прикрепить его ко всем сразу через смешивание
+2. Добавьте слушатель событий, чтобы изменить цвет box'а при событий `mouseenter`
+3. Добавьте слушатель событий, чтобы восстановить первоначальный цвет box'а при событии `mouseleave`
 
 <img class="stretch" data-src="media/img/gazehandler.gif">
 
-<a href="https://aframe-school-cursor-handler.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://aframe-school-cursor-handler.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button glitch" -->
 
 ------
 
