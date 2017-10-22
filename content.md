@@ -503,7 +503,7 @@ System](https://www.npmjs.com/package/aframe-particle-system-component). При�
 > возможность взаимодействия с сущностями (прежде всего для смартфонов).  [Почитать
 > про создание галереи изображений с обзором 360&deg;](https://aframe.io/docs/0.5.0/guides/building-with-components.html).
 
-<a href="https://glitch.com/~aframe-school-cursor" target="_blank">Переделать урок на Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-cursor" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
 На этом занятии все обработчики событий уже подключены. Нам просто нужно добавить
 объект с компонентом `cursor`, который будет предоставлять эти события на основе
@@ -595,46 +595,45 @@ code inside the `handle-events` component, marked by the code comments.
 
 ------
 
-## Add Tracked Controls &mdash; Add Hand Controls
+## Добавьте отслеживаемые элементы управления &mdash; добавление ручных элементов управления
 
-> Tracked hand controls provide immersion and interactivity with hand
-> controllers. In the following Glitch, we've pre-recorded hand control
-> movements and button presses with [A-Frame Motion
+> Отслеживаемые ручные элементы управления обеспечивают эффект погружения и интерактивность.
+> В следующем Glitch мы предварительно записали движения ручного элемента
+> управления и нажатия кнопок с [A-Frame Motion
 > Capture](https://github.com/dmarcos/aframe-motion-capture-components).
-> Now we just have to add the hands and handle the interaction events.
+> Теперь нам просто нужно добавить руки и захватить события от взаимодействия.
 
-<a href="https://glitch.com/~aframe-school-hand-controls" target="_blank">Remix Lesson on Glitch</a>  <!-- .element: class="cta-button glitch" -->
+<a href="https://glitch.com/~aframe-school-hand-controls" target="_blank">Переделать урок в Glitch</a>  <!-- .element: class="cta-button glitch" -->
 
-1. Find `<a-entity id="left">` and add the [hand-controls component](https://aframe.io/docs/0.5.0/components/hand-controls.html)
-configured to the left hand (`hand-controls="left"`)
-2. Find `<a-entity id="right">` and add the hand-controls component
-configured to the right hand (`hand-controls="right"`)
-3. View the result and see the hands moving with pre-recorded motions
+1. Найдите `<a-entity id="left">` и добавьте [компонент hand-controls](https://aframe.io/docs/0.5.0/components/hand-controls.html),
+настроенный для левой руки (`hand-controls="left"`)
+2. Найдите `<a-entity id="right">` и добавьте компонент hand-controls,
+настроенный для правой руки (`hand-controls="right"`)
+3. Посмотрите результат и на то, как руки перемещаются с заранее записанными движениями
 
 <img class="stretch" data-src="media/img/trackedcontrols.gif">
 
-<a href="https://aframe-school-hand-controls.glitch.me/solution.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-hand-controls.glitch.me/solution.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ---
 
-## Add Tracked Controls &mdash; Add Interactivity
+## Добавьте остлеживаемые элементы управления &mdash; добавление интерактивности
 
-> There are many components to add interactivity to hand controls.
+> Есть много компонентов для добавления интерактивности с элементами ручного управления.
 > [controller-cursor](https://github.com/bryik/aframe-controller-cursor-component),
 > [aabb-collider +
 > grab](https://github.com/aframevr/aframe/tree/master/examples/showcase/tracked-controls/components),
-> [super-hands](https://github.com/wmurphyrd/aframe-super-hands-component). For
-> this lesson, we'll use controller-cursor that acts as a pointing laser for
-> each hand. Continue from your previous Glitch.
+> [super-hands](https://github.com/wmurphyrd/aframe-super-hands-component). Для
+> этого урока мы будем использовать controller-cursor, который действует как лазерный указатель для
+> каждой руки. Продолжайте работать с вашим предыдущим Glitch.
 
-1. Add `controller-cursor` component to both hands
-2. In the `controller-event-handler` component, change the color of the boxes
-when they are hovered over with the `mouseenter` event, and restore the color
-with the `mouseleave` event
+1. Добавьте компонент `controller-cursor` для обеих рук
+2. В компоненте `controller-event-handler` измените цвет ящиков (box) с помощью события `mouseenter` и восстановите цвет
+с помощью события `mouseleave`
 
 <img class="stretch" data-src="media/img/trackedcontrols2.gif">
 
-<a href="https://aframe-school-hand-controls.glitch.me/solution2.html" target="_blank">View Result</a>  <!-- .element: class="cta-button" -->
+<a href="https://aframe-school-hand-controls.glitch.me/solution2.html" target="_blank">Посмотреть результат</a>  <!-- .element: class="cta-button" -->
 
 ------
 
