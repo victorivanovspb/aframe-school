@@ -11,7 +11,7 @@ Presentation Kit](https://github.com/aframevr/aframe-presentation-kit).
 [Перейти в школу (версия на английском языке)](https://aframe.io/aframe-school/)
 - [На испанском](https://mozillaperu.github.io/aframe-school/#/)
 - [На китайском](https://bobchao.github.io/aframe-school-zhTW/#/)
-- [На русском](https://victorivanovspb.github.io/#/)
+- [На русском](https://victorivanovspb.github.io/aframe-school-ru/#/)
 
 ![](https://cloud.githubusercontent.com/assets/674727/24431825/1a2c83de-13d3-11e7-9739-dd5004891684.png)
 
